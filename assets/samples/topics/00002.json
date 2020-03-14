@@ -1,0 +1,22 @@
+{
+  "id": "00002",
+  "name": "What Sport Game Do You Love Playing?",
+  "description": "",
+  "type": "grammar",
+  "sections": [
+    {
+      "id": "00002-1",
+      "name": "Grammar",
+      "activities": []
+    },
+    {
+      "id": "00002-1",
+      "name": "Quiz",
+      "activities": []
+    }
+  ],
+  "credit": {
+    "label": "VUS",
+    "url": "https://vus.edu.vn/"
+  }
+}

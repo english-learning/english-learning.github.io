@@ -1,0 +1,139 @@
+{
+  "id": "00001",
+  "name": "Describing Graphs",
+  "description": "",
+  "type": "interaction",
+  "sections": [
+    {
+      "id": "00001-1",
+      "name": "Vocabulary",
+      "activities": [
+        {
+          "id": "00001-1-1",
+          "name": "Learning",
+          "description": "Learn how to pronounce the words correctly, what they mean, and how they used",
+          "type": "read",
+          "lessons": [
+            "L00001-01",
+            "L00001-02",
+            "L00001-03"
+          ]
+        },
+        {
+          "id": "00001-1-2",
+          "name": "Practice",
+          "description": "Listen to a word and type it out, with prompt feedback",
+          "type": "select",
+          "lessons": [
+            "L00001-01",
+            "L00001-02",
+            "L00001-03"
+          ]
+        },
+        {
+          "id": "00001-1-3",
+          "name": "Results",
+          "description": "See how well you have done the practice",
+          "type": "result"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "L00001-01",
+          "name": "chart",
+          "classes": [
+            "noun"
+          ],
+          "pronunciations": [
+            {
+              "ipa": "/tʃɑːt/",
+              "mediaUrl": "https://italk.vus.edu.vn/webroot/upload/lms/audio/201907/82bb913af701931fb08f12c895086d58.mp3"
+            }
+          ],
+          "translation": "Biểu đồ",
+          "definitions": [
+            {
+              "explanation": "a page or sheet of information in the form of diagrams, lists of figures, etc.",
+              "examples": [
+                {
+                  "sentence": "<em>Profits have fallen below 5% (see <b>chart</b>).</em>",
+                  "translation": "Lợi nhuận đã sụt giảm xuống dưới 5% (xem biểu đồ)."
+                }
+              ]
+            }
+          ],
+          "type": "word"
+        },
+        {
+          "id": "L00001-02",
+          "name": "competitor",
+          "classes": [
+            "noun"
+          ],
+          "pronunciations": [
+            {
+              "ipa": "/kəmˈpetɪtə/",
+              "mediaUrl": "https://italk.vus.edu.vn/webroot/upload/lms/audio/201907/aab3902489c587847533788f0ccfeb57.mp3"
+            }
+          ],
+          "translation": "Đối thủ",
+          "definitions": [
+            {
+              "explanation": "a person or an organization that competes against others, especially in business",
+              "examples": [
+                {
+                  "sentence": "<em>We produce cheaper goods than our <b>competitors</b>.</em>"
+                }
+              ]
+            }
+          ],
+          "type": "word"
+        },
+        {
+          "id": "L00001-03",
+          "name": "index",
+          "classes": [
+            "noun"
+          ],
+          "pronunciations": [
+            {
+              "ipa": "/ˈɪndeks/",
+              "mediaUrl": "https://italk.vus.edu.vn/webroot/upload/lms/audio/201907/829540e4786a23a4c072dfff9fcc0ad3.mp3"
+            }
+          ],
+          "translation": "Chỉ số so sánh",
+          "definitions": [
+            {
+              "explanation": "a system that shows the level of prices and wages, etc. so that they can be compared with those of a previous date",
+              "examples": [
+                {
+                  "sentence": "<em>The Dow Joneis <b>index</b> fell 15 points this morning.</em>"
+                }
+              ]
+            }
+          ],
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "id": "00001-2",
+      "name": "Conversation",
+      "activities": []
+    },
+    {
+      "id": "00001-3",
+      "name": "Role Play",
+      "activities": []
+    },
+    {
+      "id": "00001-4",
+      "name": "Progress Check",
+      "activities": []
+    }
+  ],
+  "credit": {
+    "label": "VUS",
+    "url": "https://vus.edu.vn/"
+  }
+}
