@@ -144,7 +144,98 @@
       {
         "id": "00001-2",
         "name": "Conversation",
-        "activities": []
+        "activities": [
+          {
+            "id": "00001-2-1",
+            "name": "Listen",
+            "description": "Listen the conversation with and without script",
+            "type": "read",
+            "lessons": [
+              "L00001-2-01"
+            ]
+          },
+          {
+            "id": "00001-2-2",
+            "name": "Practice",
+            "description": "Fill in the blanks of the conversation",
+            "type": "fill"
+          }
+        ],
+        "lessons": [
+          {
+            "id": "L00001-2-01",
+            "mediaUrl": "https://italk.vus.edu.vn/webroot/upload/lms/conversation/201907/1baa1fa17b54d0ba65b4a19535cc4e7f.mp3",
+            "speakers": [
+              "A",
+              "B",
+              "C"
+            ],
+            "transcript": true,
+            "dialogs": [
+              {
+                "speaker": "A",
+                "message": "This graph shows the revenues from sales for last year. Can everyone see it? Good, uh… Lester, could you go over the numbers for us?"
+              },
+              {
+                "speaker": "B",
+                "message": "Sure, um… as you can see, we had a pretty slow start last year. We sold 6,000 units in January, 6,000 in February."
+              },
+              {
+                "speaker": "C",
+                "message": "When did the spring sales campaign start?"
+              },
+              {
+                "speaker": "B",
+                "message": "In March. You can see that sales rose slightly to 7,000, and then again in April - up to 8,000 units."
+              },
+              {
+                "speaker": "C",
+                "message": "Why did we have that dip in June?"
+              },
+              {
+                "speaker": "B",
+                "message": "Ah, that was due to Lodgico."
+              },
+              {
+                "speaker": "C",
+                "message": "Lodgico?"
+              },
+              {
+                "speaker": "A",
+                "message": "Our biggest competitor."
+              },
+              {
+                "speaker": "B",
+                "message": "Yeah, Lodgico launched a new product, and it cut into our market share. Sales fell to 5,000 units in May, and we dropped another thousand units in June."
+              },
+              {
+                "speaker": "C",
+                "message": "How did we deal with it?"
+              },
+              {
+                "speaker": "B",
+                "message": "We increased our discounts to wholesalers. We got sales back to 5,000 in July and then 6,000 units in August. The dramatic rise came in the next two months. Sales jumped from 10,000 units in September to 13,000 in October."
+              },
+              {
+                "speaker": "C",
+                "message": "Was that because of holiday orders?"
+              },
+              {
+                "speaker": "B",
+                "message": "That's right. And when the holiday orders stopped in November, sales went down by 6,000 units. They remained stable at 7,000 until the end of the year. Any more questions?"
+              },
+              {
+                "speaker": "C",
+                "message": "What was the year-over-year comparison look like?"
+              },
+              {
+                "speaker": "B",
+                "message": "OK, here's last year's graph. Basically, there was a slight improvement in Q1 of this year compared to Q1 of last year - particularly in January and February."
+              }
+            ],
+            "type": "conversation"
+          }
+        ]
       },
       {
         "id": "00001-3",
