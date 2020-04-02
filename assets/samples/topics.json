@@ -38,30 +38,61 @@
             "synonyms": [
               {
                 "wordId": "W-00001",
+                "answerId": 1,
                 "options": [
-                  "Synonym 1 for the word",
-                  "Synonym 2 for the word",
-                  "Synonym 3 for the word"
-                ],
-                "answer": 0
+                  {
+                    "id": 1,
+                    "value": "Synonym 1 for the word"
+                  },
+                  {
+                    "id": 2,
+                    "value": "Synonym 2 for the word"
+                  },
+                  {
+                    "id": 3,
+                    "value": "Synonym 3 for the word"
+                  }
+                ]
               },
               {
                 "wordId": "W-00002",
+                "answerId": 4,
                 "options": [
-                  "Synonym 1 for the word",
-                  "Synonym 2 for the word",
-                  "Synonym 3 for the word"
-                ],
-                "answer": 1
+                  {
+                    "id": 1,
+                    "value": "Synonym 1 for the word"
+                  },
+                  {
+                    "id": 2,
+                    "value": "Synonym 2 for the word"
+                  },
+                  {
+                    "id": 3,
+                    "value": "Synonym 3 for the word"
+                  },
+                  {
+                    "id": 4,
+                    "value": "Synonym 4 for the word"
+                  }
+                ]
               },
               {
                 "wordId": "W-00003",
+                "answerId": 2,
                 "options": [
-                  "Synonym 1 for the word",
-                  "Synonym 2 for the word",
-                  "Synonym 3 for the word"
-                ],
-                "answer": 2
+                  {
+                    "id": 1,
+                    "value": "Synonym 1 for the word"
+                  },
+                  {
+                    "id": 2,
+                    "value": "Synonym 2 for the word"
+                  },
+                  {
+                    "id": 3,
+                    "value": "Synonym 3 for the word"
+                  }
+                ]
               }
             ]
           },
@@ -82,17 +113,90 @@
             "name": "Listen",
             "description": "Listen the conversation with and without script",
             "type": "conversation_listen",
-            "conversations": [
-              "CV-00001"
-            ]
+            "conversationId": "CV-00001"
           },
           {
             "id": "A-02",
             "name": "Practice 1",
             "description": "Fill in the blanks of the conversation",
             "type": "conversation_blank",
-            "conversations": [
-              "CV-00001"
+            "conversationId": "CV-00001",
+            "dialogs": [
+              {
+                "id": 1,
+                "startIndex": 3,
+                "endIndex": 8
+              },
+              {
+                "id": 2,
+                "startIndex": 3,
+                "endIndex": 8
+              },
+              {
+                "id": 3,
+                "startIndex": -1,
+                "endIndex": -1
+              },
+              {
+                "id": 4,
+                "startIndex": 3,
+                "endIndex": 8
+              },
+              {
+                "id": 5,
+                "startIndex": 3,
+                "endIndex": 8
+              },
+              {
+                "id": 6,
+                "startIndex": 3,
+                "endIndex": 8
+              },
+              {
+                "id": 7,
+                "startIndex": 3,
+                "endIndex": 8
+              },
+              {
+                "id": 8,
+                "startIndex": 3,
+                "endIndex": 8
+              },
+              {
+                "id": 9,
+                "startIndex": 3,
+                "endIndex": 8
+              },
+              {
+                "id": 10,
+                "startIndex": 3,
+                "endIndex": 8
+              },
+              {
+                "id": 11,
+                "startIndex": 3,
+                "endIndex": 8
+              },
+              {
+                "id": 12,
+                "startIndex": 3,
+                "endIndex": 8
+              },
+              {
+                "id": 13,
+                "startIndex": 3,
+                "endIndex": 8
+              },
+              {
+                "id": 14,
+                "startIndex": 3,
+                "endIndex": 8
+              },
+              {
+                "id": 15,
+                "startIndex": 3,
+                "endIndex": 8
+              }
             ]
           },
           {
