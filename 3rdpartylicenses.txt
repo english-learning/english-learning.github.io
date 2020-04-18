@@ -57,6 +57,9 @@ MIT
 @angular/core
 MIT
 
+@angular/fire
+MIT
+
 @angular/flex-layout
 MIT
 The MIT License
@@ -389,6 +392,10 @@ THE SOFTWARE.
 
 firebase
 Apache-2.0
+
+firebase/app
+
+firebase/firestore
 
 idb
 ISC
